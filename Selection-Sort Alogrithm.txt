@@ -1,0 +1,16 @@
+Selection-Sort Alogrithm:
+
+1. The program prompts the user to enter the number of elements they want to sort.
+2. It then creates an array a of size n to store the elements entered by the user.
+3. The program reads n elements from the user and stores them in the array a.
+4. It then performs the selection sort algorithm:
+      - For each element in the array, it finds the minimum element in the unsorted portion of the array.
+      - If a smaller element is found, it swaps it with the current element.
+Finally, it prints the sorted array.
+
+Some breakdown of the key parts of the code:
+
+1. The outer loop iterates over each element of the array (i).
+2. Within the outer loop, there's an inner loop that starts from i+1 and finds the index of the minimum element (min) in the             unsorted portion of the array.
+3. If a smaller element is found (a[min] < a[i]), their positions are swapped.
+4. After completing the sorting process, the sorted array is printed.
